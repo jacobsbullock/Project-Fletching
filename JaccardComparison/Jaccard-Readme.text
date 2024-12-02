@@ -1,0 +1,5 @@
+Steps to Use
+1. Replace file1 and file2 with the paths to your Excel files.
+2. Replace column1 and column2 with the column names containing the word lists in the respective files.
+3. Run the script, and it will print the Jaccard similarity score.
+4. Let me know if you need help with anything else!
