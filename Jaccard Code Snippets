@@ -1,0 +1,16 @@
+# Create Function for Calculating Jaccard Similarity and Distance
+def jaccard(list1, list2):
+    intersection = len(list(set(list1).intersection(list2)))
+    union = (len(list1) + len(list2)) - intersection
+    similarity=float(intersection) / union
+    distance=1-similarity
+    return similarity,distance
+
+# Define two sets 
+a = [0, 1, 2, 5, 6]
+b = [0, 2, 3, 4, 5, 7, 9]
+
+# Find Jaccard Similarity and Distance between the two sets by calling the function 
+J_Similarity,J_Distance = jaccard(a, b)
+print("Jaccard Similarity: ",J_Similarity)
+print("Jaccard Distance: ",J_Distance)
