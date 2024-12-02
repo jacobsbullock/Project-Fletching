@@ -1,1 +1,1 @@
-
+All files are excell files. Each file contains a list of the lexical forms of the vocabulary words found in the Bible book Stop words have been removed from each vocabulary list. The naming format is as follows: Version Abbreviation_book number_Book Name_
